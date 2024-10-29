@@ -1,1 +1,28 @@
 @import url('reset.css');
+
+.piano {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.keywords {
+    background-color: black;
+    display: flex;
+    padding: 50px;
+}
+
+.keyword {
+    position: relative;
+    z-index: 1;
+    padding: 120px 50px;
+    border: 1px solid black;
+    transition: all 0.3s;
+    background-color: white;
+}
+
+.playing {
+    box-shadow: 0px -5px 10px black inset;
+}

@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Piano</title>
 </head>
+
 <body>
     <!-------PIANO HEADER------->
 
+    <div class="piano">
+        <ul class="keywords">
+            <li data-key="65" class="keyword">
+                <p>A</p>
+            </li>
+            <li data-key="83" class="keyword">
+                <p>S</p>
+            </li>
+            <li data-key="68" class="keyword">
+                <p>D</p>
+            </li>
+            <li data-key="70" class="keyword">
+                <p>F</p>
+            </li>
+            <li data-key="71" class="keyword">
+                <p>G</p>
+            </li>
+            <li data-key="72" class="keyword">
+                <p>H</p>
+            </li>
+            <li data-key="74" class="keyword">
+                <p>J</p>
+            </li>
+            <li data-key="75" class="keyword">
+                <p>K</p>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+    <audio data-key="65" src="sounds/do.mp3"></audio>
+    <audio data-key="83" src="sounds/re.mp3"></audio>
+    <audio data-key="68" src="sounds/mi.mp3"></audio>
+    <audio data-key="70" src="sounds/fa.mp3"></audio>
+    <audio data-key="71" src="sounds/sol.mp3"></audio>
+    <audio data-key="72" src="sounds/la.mp3"></audio>
+    <audio data-key="74" src="sounds/si.mp3"></audio>
+    <audio data-key="75" src="sounds/do.mp3"></audio>
     <script src="main.js"></script>
 </body>
+
 </html>
